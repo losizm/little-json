@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Avenir Next", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 32px;
+  background-color: #fcfcfc;
+  color: #333;
+}
+
+.jumbotron {
+  margin-top: 5%;
+  text-align: center;
+}
+
+.jumbotron > .title {
+  color: black;
+  font-size: 2em;
+  letter-spacing: -0.05em;
+}
+
+.jumbotron > .title > .sep {
+  color: #24d;
+}
+
+.jumbotron > .title > em {
+  font-style: normal;
+  color: #999;
+}
+
+.jumbotron > .description {
+  color: #666;
+  font-weight: 300;
+  letter-spacing: 0.025em;
+}
+
+.jumbotron > .strip {
+  margin-top: 48px;
+  padding: 2.5em;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  background-color: #f4f4f4;
+  font-size: 0.45em;
+  letter-spacing: 0.2em;
+}
+
+.jumbotron > .strip > .quote {
+  color: #d24
+}
+
+.jumbotron > .strip > .op {
+  color: #24a;
+}
+
+.jumbotron > .controls {
+  margin-top: 24px;
+}
+
+.jumbotron > .controls > a.btn, .jumbotron > .controls > a.btn:visited  {
+  font-size: 0.5em;
+  font-weight: normal;
+  padding: 0.75em 1.25em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #26d;
+  color: #fff;
+  text-decoration: none;
+}
+
+.jumbotron > .controls > a.btn:hover  {
+  background-color: #2f6fdf;
+  cursor: pointer;
+}
+
+.jumbotron > .controls > a.btn:active  {
+  background-color: #37e;
+}
+
+.jumbotron > .controls > a.btn.btn-alt, .jumbotron > .controls > a.btn.btn-alt:visited {
+  background-color: #fcfcfc;
+  color: #333;
+}
+
+.jumbotron > .controls > a.btn.btn-alt:hover  {
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.jumbotron > .controls > a.btn.btn-alt:active  {
+  background-color: #eee;
+}
+
+.jumbotron > .controls > a + a {
+  margin-left: 1em;
+}
