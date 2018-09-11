@@ -411,7 +411,7 @@
         <span class="name">arrayToJson</span><span class="tparams">[<span name="T">T</span>]</span><span class="params">(<span class="implicit">implicit </span><span name="convert">convert: <a href="ToJson.html" class="extype" name="little.json.ToJson">ToJson</a>[<span class="extype" name="little.json.Implicits.arrayToJson.T">T</span>]</span>)</span><span class="result">: <a href="ToJson.html" class="extype" name="little.json.ToJson">ToJson</a>[<span class="extype" name="scala.Array">Array</span>[<span class="extype" name="little.json.Implicits.arrayToJson.T">T</span>]]</span>
       </span>
       
-      <p class="shortcomment cmt">Converts Array[T] to json.</p>
+      <p class="shortcomment cmt">Creates ToJson for converting Array to JsonArray.</p>
     </li><li name="scala.Any#asInstanceOf" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="asInstanceOf[T0]:T0"></a>
       <span class="permalink">
@@ -428,6 +428,54 @@
       </span>
       
       <div class="fullcomment"><dl class="attributes block"> <dt>Definition Classes</dt><dd>Any</dd></dl></div>
+    </li><li name="little.json.Implicits#bigDecimalToJson" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="bigDecimalToJson:little.json.ToJson[BigDecimal]"></a><a id="bigDecimalToJson:ToJson[BigDecimal]"></a>
+      <span class="permalink">
+      <a href="../../little/json/Implicits$.html#bigDecimalToJson:little.json.ToJson[BigDecimal]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">bigDecimalToJson</span><span class="result">: <a href="ToJson.html" class="extype" name="little.json.ToJson">ToJson</a>[<span class="extype" name="scala.BigDecimal">BigDecimal</span>]</span>
+      </span>
+      
+      <p class="shortcomment cmt">Converts BigDecimal to JsonValue.</p>
+    </li><li name="little.json.Implicits#bigIntToJson" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="bigIntToJson:little.json.ToJson[BigInt]"></a><a id="bigIntToJson:ToJson[BigInt]"></a>
+      <span class="permalink">
+      <a href="../../little/json/Implicits$.html#bigIntToJson:little.json.ToJson[BigInt]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">bigIntToJson</span><span class="result">: <a href="ToJson.html" class="extype" name="little.json.ToJson">ToJson</a>[<span class="extype" name="scala.BigInt">BigInt</span>]</span>
+      </span>
+      
+      <p class="shortcomment cmt">Converts BigInt to JsonValue.</p>
+    </li><li name="little.json.Implicits#booleanToJson" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="booleanToJson:little.json.ToJson[Boolean]"></a><a id="booleanToJson:ToJson[Boolean]"></a>
+      <span class="permalink">
+      <a href="../../little/json/Implicits$.html#booleanToJson:little.json.ToJson[Boolean]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">booleanToJson</span><span class="result">: <a href="ToJson.html" class="extype" name="little.json.ToJson">ToJson</a>[<span class="extype" name="scala.Boolean">Boolean</span>]</span>
+      </span>
+      
+      <p class="shortcomment cmt">Converts Boolean to JsonValue.</p>
     </li><li name="scala.AnyRef#clone" visbl="prt" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="clone():Object"></a><a id="clone():AnyRef"></a>
       <span class="permalink">
@@ -452,6 +500,22 @@
     </span>)</span>
               
         </dd></dl></div>
+    </li><li name="little.json.Implicits#doubleToJson" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="doubleToJson:little.json.ToJson[Double]"></a><a id="doubleToJson:ToJson[Double]"></a>
+      <span class="permalink">
+      <a href="../../little/json/Implicits$.html#doubleToJson:little.json.ToJson[Double]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">doubleToJson</span><span class="result">: <a href="ToJson.html" class="extype" name="little.json.ToJson">ToJson</a>[<span class="extype" name="scala.Double">Double</span>]</span>
+      </span>
+      
+      <p class="shortcomment cmt">Converts Double to JsonValue.</p>
     </li><li name="scala.AnyRef#eq" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="eq(x$1:AnyRef):Boolean"></a><a id="eq(AnyRef):Boolean"></a>
       <span class="permalink">
@@ -544,6 +608,22 @@
                 <span class="name">@native</span><span class="args">()</span>
               
         </dd></dl></div>
+    </li><li name="little.json.Implicits#intToJson" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="intToJson:little.json.ToJson[Int]"></a><a id="intToJson:ToJson[Int]"></a>
+      <span class="permalink">
+      <a href="../../little/json/Implicits$.html#intToJson:little.json.ToJson[Int]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">intToJson</span><span class="result">: <a href="ToJson.html" class="extype" name="little.json.ToJson">ToJson</a>[<span class="extype" name="scala.Int">Int</span>]</span>
+      </span>
+      
+      <p class="shortcomment cmt">Converts Int to JsonValue.</p>
     </li><li name="scala.Any#isInstanceOf" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="isInstanceOf[T0]:Boolean"></a>
       <span class="permalink">
@@ -575,7 +655,7 @@
         <span class="name">jsonToBigDecimal</span><span class="result">: <a href="FromJson.html" class="extype" name="little.json.FromJson">FromJson</a>[<span class="extype" name="scala.BigDecimal">BigDecimal</span>]</span>
       </span>
       
-      <p class="shortcomment cmt">Converts json to BigDecimal.</p>
+      <p class="shortcomment cmt">Converts JsonValue to BigDecimal.</p>
     </li><li name="little.json.Implicits#jsonToBigInt" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
       <a id="jsonToBigInt:little.json.FromJson[BigInt]"></a><a id="jsonToBigInt:FromJson[BigInt]"></a>
       <span class="permalink">
@@ -591,7 +671,7 @@
         <span class="name">jsonToBigInt</span><span class="result">: <a href="FromJson.html" class="extype" name="little.json.FromJson">FromJson</a>[<span class="extype" name="scala.BigInt">BigInt</span>]</span>
       </span>
       
-      <p class="shortcomment cmt">Converts json to BigInt (exact).</p>
+      <p class="shortcomment cmt">Converts JsonValue to BigInt (exact).</p>
     </li><li name="little.json.Implicits#jsonToBoolean" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
       <a id="jsonToBoolean:little.json.FromJson[Boolean]"></a><a id="jsonToBoolean:FromJson[Boolean]"></a>
       <span class="permalink">
@@ -607,11 +687,11 @@
         <span class="name">jsonToBoolean</span><span class="result">: <a href="FromJson.html" class="extype" name="little.json.FromJson">FromJson</a>[<span class="extype" name="scala.Boolean">Boolean</span>]</span>
       </span>
       
-      <p class="shortcomment cmt">Converts json to Boolean.</p>
-    </li><li name="little.json.Implicits#jsonToContainer" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
-      <a id="jsonToContainer[T,M[T]](implicitconvert:little.json.FromJson[T],implicitbuild:scala.collection.generic.CanBuildFrom[Nothing,T,M[T]]):little.json.FromJson[M[T]]"></a><a id="jsonToContainer[T,M[T]](FromJson[T],CanBuildFrom[Nothing,T,M[T]]):FromJson[M[T]]"></a>
+      <p class="shortcomment cmt">Converts JsonValue to Boolean.</p>
+    </li><li name="little.json.Implicits#jsonToCollection" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="jsonToCollection[T,M[T]](implicitconvert:little.json.FromJson[T],implicitbuild:scala.collection.generic.CanBuildFrom[Nothing,T,M[T]]):little.json.FromJson[M[T]]"></a><a id="jsonToCollection[T,M[T]](FromJson[T],CanBuildFrom[Nothing,T,M[T]]):FromJson[M[T]]"></a>
       <span class="permalink">
-      <a href="../../little/json/Implicits$.html#jsonToContainer[T,M[T]](implicitconvert:little.json.FromJson[T],implicitbuild:scala.collection.generic.CanBuildFrom[Nothing,T,M[T]]):little.json.FromJson[M[T]]" title="Permalink">
+      <a href="../../little/json/Implicits$.html#jsonToCollection[T,M[T]](implicitconvert:little.json.FromJson[T],implicitbuild:scala.collection.generic.CanBuildFrom[Nothing,T,M[T]]):little.json.FromJson[M[T]]" title="Permalink">
         <i class="material-icons"></i>
       </a>
     </span>
@@ -620,10 +700,10 @@
         <span class="kind">def</span>
       </span>
       <span class="symbol">
-        <span class="name">jsonToContainer</span><span class="tparams">[<span name="T">T</span>, <span name="M">M<span class="tparams">[<span name="T">T</span>]</span></span>]</span><span class="params">(<span class="implicit">implicit </span><span name="convert">convert: <a href="FromJson.html" class="extype" name="little.json.FromJson">FromJson</a>[<span class="extype" name="little.json.Implicits.jsonToContainer.T">T</span>]</span>, <span name="build">build: <span class="extype" name="scala.collection.generic.CanBuildFrom">CanBuildFrom</span>[<span class="extype" name="scala.Nothing">Nothing</span>, <span class="extype" name="little.json.Implicits.jsonToContainer.T">T</span>, <span class="extype" name="little.json.Implicits.jsonToContainer.M">M</span>[<span class="extype" name="little.json.Implicits.jsonToContainer.T">T</span>]]</span>)</span><span class="result">: <a href="FromJson.html" class="extype" name="little.json.FromJson">FromJson</a>[<span class="extype" name="little.json.Implicits.jsonToContainer.M">M</span>[<span class="extype" name="little.json.Implicits.jsonToContainer.T">T</span>]]</span>
+        <span class="name">jsonToCollection</span><span class="tparams">[<span name="T">T</span>, <span name="M">M<span class="tparams">[<span name="T">T</span>]</span></span>]</span><span class="params">(<span class="implicit">implicit </span><span name="convert">convert: <a href="FromJson.html" class="extype" name="little.json.FromJson">FromJson</a>[<span class="extype" name="little.json.Implicits.jsonToCollection.T">T</span>]</span>, <span name="build">build: <span class="extype" name="scala.collection.generic.CanBuildFrom">CanBuildFrom</span>[<span class="extype" name="scala.Nothing">Nothing</span>, <span class="extype" name="little.json.Implicits.jsonToCollection.T">T</span>, <span class="extype" name="little.json.Implicits.jsonToCollection.M">M</span>[<span class="extype" name="little.json.Implicits.jsonToCollection.T">T</span>]]</span>)</span><span class="result">: <a href="FromJson.html" class="extype" name="little.json.FromJson">FromJson</a>[<span class="extype" name="little.json.Implicits.jsonToCollection.M">M</span>[<span class="extype" name="little.json.Implicits.jsonToCollection.T">T</span>]]</span>
       </span>
       
-      <p class="shortcomment cmt">Converts json to container M[T].</p>
+      <p class="shortcomment cmt">Creates FromJson for converting JsonArray to collection.</p>
     </li><li name="little.json.Implicits#jsonToDouble" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
       <a id="jsonToDouble:little.json.FromJson[Double]"></a><a id="jsonToDouble:FromJson[Double]"></a>
       <span class="permalink">
@@ -639,7 +719,7 @@
         <span class="name">jsonToDouble</span><span class="result">: <a href="FromJson.html" class="extype" name="little.json.FromJson">FromJson</a>[<span class="extype" name="scala.Double">Double</span>]</span>
       </span>
       
-      <p class="shortcomment cmt">Converts json to Double.</p>
+      <p class="shortcomment cmt">Converts JsonValue to Double.</p>
     </li><li name="little.json.Implicits#jsonToInt" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
       <a id="jsonToInt:little.json.FromJson[Int]"></a><a id="jsonToInt:FromJson[Int]"></a>
       <span class="permalink">
@@ -655,7 +735,7 @@
         <span class="name">jsonToInt</span><span class="result">: <a href="FromJson.html" class="extype" name="little.json.FromJson">FromJson</a>[<span class="extype" name="scala.Int">Int</span>]</span>
       </span>
       
-      <p class="shortcomment cmt">Converts json to Int (exact).</p>
+      <p class="shortcomment cmt">Converts JsonValue to Int (exact).</p>
     </li><li name="little.json.Implicits#jsonToLong" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
       <a id="jsonToLong:little.json.FromJson[Long]"></a><a id="jsonToLong:FromJson[Long]"></a>
       <span class="permalink">
@@ -671,7 +751,7 @@
         <span class="name">jsonToLong</span><span class="result">: <a href="FromJson.html" class="extype" name="little.json.FromJson">FromJson</a>[<span class="extype" name="scala.Long">Long</span>]</span>
       </span>
       
-      <p class="shortcomment cmt">Converts json to Long (exact).</p>
+      <p class="shortcomment cmt">Converts JsonValue to Long (exact).</p>
     </li><li name="little.json.Implicits#jsonToString" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
       <a id="jsonToString:little.json.FromJson[String]"></a><a id="jsonToString:FromJson[String]"></a>
       <span class="permalink">
@@ -687,7 +767,23 @@
         <span class="name">jsonToString</span><span class="result">: <a href="FromJson.html" class="extype" name="little.json.FromJson">FromJson</a>[<span class="extype" name="scala.Predef.String">String</span>]</span>
       </span>
       
-      <p class="shortcomment cmt">Converts json to String.</p>
+      <p class="shortcomment cmt">Converts JsonValue to String.</p>
+    </li><li name="little.json.Implicits#longToJson" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="longToJson:little.json.ToJson[Long]"></a><a id="longToJson:ToJson[Long]"></a>
+      <span class="permalink">
+      <a href="../../little/json/Implicits$.html#longToJson:little.json.ToJson[Long]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">longToJson</span><span class="result">: <a href="ToJson.html" class="extype" name="little.json.ToJson">ToJson</a>[<span class="extype" name="scala.Long">Long</span>]</span>
+      </span>
+      
+      <p class="shortcomment cmt">Converts Long to JsonValue.</p>
     </li><li name="scala.AnyRef#ne" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="ne(x$1:AnyRef):Boolean"></a><a id="ne(AnyRef):Boolean"></a>
       <span class="permalink">
@@ -742,6 +838,86 @@
                 <span class="name">@native</span><span class="args">()</span>
               
         </dd></dl></div>
+    </li><li name="little.json.Implicits#optionArrayBuilderCompanion" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="optionArrayBuilderCompanion[T,M[T]&lt;:Option[T]](implicitcompanion:little.json.ArrayBuilderCompanion[T]):little.json.ArrayBuilderCompanion[M[T]]"></a><a id="optionArrayBuilderCompanion[T,M[T]&lt;:Option[T]](ArrayBuilderCompanion[T]):ArrayBuilderCompanion[M[T]]"></a>
+      <span class="permalink">
+      <a href="../../little/json/Implicits$.html#optionArrayBuilderCompanion[T,M[T]&lt;:Option[T]](implicitcompanion:little.json.ArrayBuilderCompanion[T]):little.json.ArrayBuilderCompanion[M[T]]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">optionArrayBuilderCompanion</span><span class="tparams">[<span name="T">T</span>, <span name="M">M<span class="tparams">[<span name="T">T</span>]</span> &lt;: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="little.json.Implicits.optionArrayBuilderCompanion.M.T">T</span>]</span>]</span><span class="params">(<span class="implicit">implicit </span><span name="companion">companion: <a href="ArrayBuilderCompanion.html" class="extype" name="little.json.ArrayBuilderCompanion">ArrayBuilderCompanion</a>[<span class="extype" name="little.json.Implicits.optionArrayBuilderCompanion.T">T</span>]</span>)</span><span class="result">: <a href="ArrayBuilderCompanion.html" class="extype" name="little.json.ArrayBuilderCompanion">ArrayBuilderCompanion</a>[<span class="extype" name="little.json.Implicits.optionArrayBuilderCompanion.M">M</span>[<span class="extype" name="little.json.Implicits.optionArrayBuilderCompanion.T">T</span>]]</span>
+      </span>
+      
+      <p class="shortcomment cmt">Creates ArrayBuilderCompanion for adding Option to JsonArrayBuilder.</p>
+    </li><li name="little.json.Implicits#optionArrayContextWriter" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="optionArrayContextWriter[T,M[T]&lt;:Option[T]](implicitwriter:little.json.ArrayContextWriter[T]):little.json.ArrayContextWriter[M[T]]"></a><a id="optionArrayContextWriter[T,M[T]&lt;:Option[T]](ArrayContextWriter[T]):ArrayContextWriter[M[T]]"></a>
+      <span class="permalink">
+      <a href="../../little/json/Implicits$.html#optionArrayContextWriter[T,M[T]&lt;:Option[T]](implicitwriter:little.json.ArrayContextWriter[T]):little.json.ArrayContextWriter[M[T]]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">optionArrayContextWriter</span><span class="tparams">[<span name="T">T</span>, <span name="M">M<span class="tparams">[<span name="T">T</span>]</span> &lt;: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="little.json.Implicits.optionArrayContextWriter.M.T">T</span>]</span>]</span><span class="params">(<span class="implicit">implicit </span><span name="writer">writer: <a href="ArrayContextWriter.html" class="extype" name="little.json.ArrayContextWriter">ArrayContextWriter</a>[<span class="extype" name="little.json.Implicits.optionArrayContextWriter.T">T</span>]</span>)</span><span class="result">: <a href="ArrayContextWriter.html" class="extype" name="little.json.ArrayContextWriter">ArrayContextWriter</a>[<span class="extype" name="little.json.Implicits.optionArrayContextWriter.M">M</span>[<span class="extype" name="little.json.Implicits.optionArrayContextWriter.T">T</span>]]</span>
+      </span>
+      
+      <p class="shortcomment cmt">Creates ArrayContextWriter for writing Option to JsonGenerator.</p>
+    </li><li name="little.json.Implicits#optionObjectBuilderCompanion" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="optionObjectBuilderCompanion[T,M[T]&lt;:Option[T]](implicitcompanion:little.json.ObjectBuilderCompanion[T]):little.json.ObjectBuilderCompanion[M[T]]"></a><a id="optionObjectBuilderCompanion[T,M[T]&lt;:Option[T]](ObjectBuilderCompanion[T]):ObjectBuilderCompanion[M[T]]"></a>
+      <span class="permalink">
+      <a href="../../little/json/Implicits$.html#optionObjectBuilderCompanion[T,M[T]&lt;:Option[T]](implicitcompanion:little.json.ObjectBuilderCompanion[T]):little.json.ObjectBuilderCompanion[M[T]]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">optionObjectBuilderCompanion</span><span class="tparams">[<span name="T">T</span>, <span name="M">M<span class="tparams">[<span name="T">T</span>]</span> &lt;: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="little.json.Implicits.optionObjectBuilderCompanion.M.T">T</span>]</span>]</span><span class="params">(<span class="implicit">implicit </span><span name="companion">companion: <a href="ObjectBuilderCompanion.html" class="extype" name="little.json.ObjectBuilderCompanion">ObjectBuilderCompanion</a>[<span class="extype" name="little.json.Implicits.optionObjectBuilderCompanion.T">T</span>]</span>)</span><span class="result">: <a href="ObjectBuilderCompanion.html" class="extype" name="little.json.ObjectBuilderCompanion">ObjectBuilderCompanion</a>[<span class="extype" name="little.json.Implicits.optionObjectBuilderCompanion.M">M</span>[<span class="extype" name="little.json.Implicits.optionObjectBuilderCompanion.T">T</span>]]</span>
+      </span>
+      
+      <p class="shortcomment cmt">Creates ObjectBuilderCompanion for adding Option to JsonObjectBuilder.</p>
+    </li><li name="little.json.Implicits#optionObjectContextWriter" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="optionObjectContextWriter[T,M[T]&lt;:Option[T]](implicitwriter:little.json.ObjectContextWriter[T]):little.json.ObjectContextWriter[M[T]]"></a><a id="optionObjectContextWriter[T,M[T]&lt;:Option[T]](ObjectContextWriter[T]):ObjectContextWriter[M[T]]"></a>
+      <span class="permalink">
+      <a href="../../little/json/Implicits$.html#optionObjectContextWriter[T,M[T]&lt;:Option[T]](implicitwriter:little.json.ObjectContextWriter[T]):little.json.ObjectContextWriter[M[T]]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">def</span>
+      </span>
+      <span class="symbol">
+        <span class="name">optionObjectContextWriter</span><span class="tparams">[<span name="T">T</span>, <span name="M">M<span class="tparams">[<span name="T">T</span>]</span> &lt;: <span class="extype" name="scala.Option">Option</span>[<span class="extype" name="little.json.Implicits.optionObjectContextWriter.M.T">T</span>]</span>]</span><span class="params">(<span class="implicit">implicit </span><span name="writer">writer: <a href="ObjectContextWriter.html" class="extype" name="little.json.ObjectContextWriter">ObjectContextWriter</a>[<span class="extype" name="little.json.Implicits.optionObjectContextWriter.T">T</span>]</span>)</span><span class="result">: <a href="ObjectContextWriter.html" class="extype" name="little.json.ObjectContextWriter">ObjectContextWriter</a>[<span class="extype" name="little.json.Implicits.optionObjectContextWriter.M">M</span>[<span class="extype" name="little.json.Implicits.optionObjectContextWriter.T">T</span>]]</span>
+      </span>
+      
+      <p class="shortcomment cmt">Creates ObjectContextWriter for writing Option to JsonGenerator.</p>
+    </li><li name="little.json.Implicits#stringToJson" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
+      <a id="stringToJson:little.json.ToJson[String]"></a><a id="stringToJson:ToJson[String]"></a>
+      <span class="permalink">
+      <a href="../../little/json/Implicits$.html#stringToJson:little.json.ToJson[String]" title="Permalink">
+        <i class="material-icons"></i>
+      </a>
+    </span>
+      <span class="modifier_kind">
+        <span class="modifier">implicit </span>
+        <span class="kind">val</span>
+      </span>
+      <span class="symbol">
+        <span class="name">stringToJson</span><span class="result">: <a href="ToJson.html" class="extype" name="little.json.ToJson">ToJson</a>[<span class="extype" name="scala.Predef.String">String</span>]</span>
+      </span>
+      
+      <p class="shortcomment cmt">Converts String to JsonValue.</p>
     </li><li name="scala.AnyRef#synchronized" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="synchronized[T0](x$1:=&gt;T0):T0"></a><a id="synchronized[T0](⇒T0):T0"></a>
       <span class="permalink">
@@ -789,7 +965,7 @@
         <span class="name">traversableOnceToJson</span><span class="tparams">[<span name="T">T</span>, <span name="M">M<span class="tparams">[<span name="T">T</span>]</span> &lt;: <span class="extype" name="scala.TraversableOnce">TraversableOnce</span>[<span class="extype" name="little.json.Implicits.traversableOnceToJson.M.T">T</span>]</span>]</span><span class="params">(<span class="implicit">implicit </span><span name="convert">convert: <a href="ToJson.html" class="extype" name="little.json.ToJson">ToJson</a>[<span class="extype" name="little.json.Implicits.traversableOnceToJson.T">T</span>]</span>)</span><span class="result">: <a href="ToJson.html" class="extype" name="little.json.ToJson">ToJson</a>[<span class="extype" name="little.json.Implicits.traversableOnceToJson.M">M</span>[<span class="extype" name="little.json.Implicits.traversableOnceToJson.T">T</span>]]</span>
       </span>
       
-      <p class="shortcomment cmt">Converts TraversableOnce[T] to json.</p>
+      <p class="shortcomment cmt">Creates ToJson instance for converting Traversable to JsonArray.</p>
     </li><li name="scala.AnyRef#wait" visbl="pub" class="indented0 " data-isabs="false" fullComment="yes" group="Ungrouped">
       <a id="wait():Unit"></a>
       <span class="permalink">
@@ -858,230 +1034,6 @@
     </span>)</span>
               
         </dd></dl></div>
-    </li><li name="little.json.Implicits.BigDecimalBuilderCompanion" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
-      <a id="BigDecimalBuilderCompanion"></a><a id="BigDecimalBuilderCompanion:BigDecimalBuilderCompanion"></a>
-      <span class="permalink">
-      <a href="../../little/json/Implicits$.html#BigDecimalBuilderCompanion" title="Permalink">
-        <i class="material-icons"></i>
-      </a>
-    </span>
-      <span class="modifier_kind">
-        <span class="modifier">implicit </span>
-        <span class="kind">object</span>
-      </span>
-      <span class="symbol">
-        <a title="Adds BigDecimal to requested builder." href="Implicits$$BigDecimalBuilderCompanion$.html"><span class="name">BigDecimalBuilderCompanion</span></a><span class="result"> extends <a href="BuilderCompanion.html" class="extype" name="little.json.BuilderCompanion">BuilderCompanion</a>[<span class="extype" name="scala.BigDecimal">BigDecimal</span>]</span>
-      </span>
-      
-      <p class="shortcomment cmt">Adds BigDecimal to requested builder.</p>
-    </li><li name="little.json.Implicits.BigDecimalContextWriter" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
-      <a id="BigDecimalContextWriter"></a><a id="BigDecimalContextWriter:BigDecimalContextWriter"></a>
-      <span class="permalink">
-      <a href="../../little/json/Implicits$.html#BigDecimalContextWriter" title="Permalink">
-        <i class="material-icons"></i>
-      </a>
-    </span>
-      <span class="modifier_kind">
-        <span class="modifier">implicit </span>
-        <span class="kind">object</span>
-      </span>
-      <span class="symbol">
-        <a title="Writes BigDecimal in requested context." href="Implicits$$BigDecimalContextWriter$.html"><span class="name">BigDecimalContextWriter</span></a><span class="result"> extends <a href="ContextWriter.html" class="extype" name="little.json.ContextWriter">ContextWriter</a>[<span class="extype" name="scala.BigDecimal">BigDecimal</span>]</span>
-      </span>
-      
-      <p class="shortcomment cmt">Writes BigDecimal in requested context.</p>
-    </li><li name="little.json.Implicits.BigIntBuilderCompanion" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
-      <a id="BigIntBuilderCompanion"></a><a id="BigIntBuilderCompanion:BigIntBuilderCompanion"></a>
-      <span class="permalink">
-      <a href="../../little/json/Implicits$.html#BigIntBuilderCompanion" title="Permalink">
-        <i class="material-icons"></i>
-      </a>
-    </span>
-      <span class="modifier_kind">
-        <span class="modifier">implicit </span>
-        <span class="kind">object</span>
-      </span>
-      <span class="symbol">
-        <a title="Adds BigInt to requested builder." href="Implicits$$BigIntBuilderCompanion$.html"><span class="name">BigIntBuilderCompanion</span></a><span class="result"> extends <a href="BuilderCompanion.html" class="extype" name="little.json.BuilderCompanion">BuilderCompanion</a>[<span class="extype" name="scala.BigInt">BigInt</span>]</span>
-      </span>
-      
-      <p class="shortcomment cmt">Adds BigInt to requested builder.</p>
-    </li><li name="little.json.Implicits.BigIntContextWriter" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
-      <a id="BigIntContextWriter"></a><a id="BigIntContextWriter:BigIntContextWriter"></a>
-      <span class="permalink">
-      <a href="../../little/json/Implicits$.html#BigIntContextWriter" title="Permalink">
-        <i class="material-icons"></i>
-      </a>
-    </span>
-      <span class="modifier_kind">
-        <span class="modifier">implicit </span>
-        <span class="kind">object</span>
-      </span>
-      <span class="symbol">
-        <a title="Writes BigInt in requested context." href="Implicits$$BigIntContextWriter$.html"><span class="name">BigIntContextWriter</span></a><span class="result"> extends <a href="ContextWriter.html" class="extype" name="little.json.ContextWriter">ContextWriter</a>[<span class="extype" name="scala.BigInt">BigInt</span>]</span>
-      </span>
-      
-      <p class="shortcomment cmt">Writes BigInt in requested context.</p>
-    </li><li name="little.json.Implicits.BooleanBuilderCompanion" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
-      <a id="BooleanBuilderCompanion"></a><a id="BooleanBuilderCompanion:BooleanBuilderCompanion"></a>
-      <span class="permalink">
-      <a href="../../little/json/Implicits$.html#BooleanBuilderCompanion" title="Permalink">
-        <i class="material-icons"></i>
-      </a>
-    </span>
-      <span class="modifier_kind">
-        <span class="modifier">implicit </span>
-        <span class="kind">object</span>
-      </span>
-      <span class="symbol">
-        <a title="Adds Boolean to requested builder." href="Implicits$$BooleanBuilderCompanion$.html"><span class="name">BooleanBuilderCompanion</span></a><span class="result"> extends <a href="BuilderCompanion.html" class="extype" name="little.json.BuilderCompanion">BuilderCompanion</a>[<span class="extype" name="scala.Boolean">Boolean</span>]</span>
-      </span>
-      
-      <p class="shortcomment cmt">Adds Boolean to requested builder.</p>
-    </li><li name="little.json.Implicits.BooleanContextWriter" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
-      <a id="BooleanContextWriter"></a><a id="BooleanContextWriter:BooleanContextWriter"></a>
-      <span class="permalink">
-      <a href="../../little/json/Implicits$.html#BooleanContextWriter" title="Permalink">
-        <i class="material-icons"></i>
-      </a>
-    </span>
-      <span class="modifier_kind">
-        <span class="modifier">implicit </span>
-        <span class="kind">object</span>
-      </span>
-      <span class="symbol">
-        <a title="Writes Boolean in requested context." href="Implicits$$BooleanContextWriter$.html"><span class="name">BooleanContextWriter</span></a><span class="result"> extends <a href="ContextWriter.html" class="extype" name="little.json.ContextWriter">ContextWriter</a>[<span class="extype" name="scala.Boolean">Boolean</span>]</span>
-      </span>
-      
-      <p class="shortcomment cmt">Writes Boolean in requested context.</p>
-    </li><li name="little.json.Implicits.DoubleBuilderCompanion" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
-      <a id="DoubleBuilderCompanion"></a><a id="DoubleBuilderCompanion:DoubleBuilderCompanion"></a>
-      <span class="permalink">
-      <a href="../../little/json/Implicits$.html#DoubleBuilderCompanion" title="Permalink">
-        <i class="material-icons"></i>
-      </a>
-    </span>
-      <span class="modifier_kind">
-        <span class="modifier">implicit </span>
-        <span class="kind">object</span>
-      </span>
-      <span class="symbol">
-        <a title="Adds Double to requested builder." href="Implicits$$DoubleBuilderCompanion$.html"><span class="name">DoubleBuilderCompanion</span></a><span class="result"> extends <a href="BuilderCompanion.html" class="extype" name="little.json.BuilderCompanion">BuilderCompanion</a>[<span class="extype" name="scala.Double">Double</span>]</span>
-      </span>
-      
-      <p class="shortcomment cmt">Adds Double to requested builder.</p>
-    </li><li name="little.json.Implicits.DoubleContextWriter" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
-      <a id="DoubleContextWriter"></a><a id="DoubleContextWriter:DoubleContextWriter"></a>
-      <span class="permalink">
-      <a href="../../little/json/Implicits$.html#DoubleContextWriter" title="Permalink">
-        <i class="material-icons"></i>
-      </a>
-    </span>
-      <span class="modifier_kind">
-        <span class="modifier">implicit </span>
-        <span class="kind">object</span>
-      </span>
-      <span class="symbol">
-        <a title="Writes Double in requested context." href="Implicits$$DoubleContextWriter$.html"><span class="name">DoubleContextWriter</span></a><span class="result"> extends <a href="ContextWriter.html" class="extype" name="little.json.ContextWriter">ContextWriter</a>[<span class="extype" name="scala.Double">Double</span>]</span>
-      </span>
-      
-      <p class="shortcomment cmt">Writes Double in requested context.</p>
-    </li><li name="little.json.Implicits.IntBuilderCompanion" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
-      <a id="IntBuilderCompanion"></a><a id="IntBuilderCompanion:IntBuilderCompanion"></a>
-      <span class="permalink">
-      <a href="../../little/json/Implicits$.html#IntBuilderCompanion" title="Permalink">
-        <i class="material-icons"></i>
-      </a>
-    </span>
-      <span class="modifier_kind">
-        <span class="modifier">implicit </span>
-        <span class="kind">object</span>
-      </span>
-      <span class="symbol">
-        <a title="Adds Int to requested builder." href="Implicits$$IntBuilderCompanion$.html"><span class="name">IntBuilderCompanion</span></a><span class="result"> extends <a href="BuilderCompanion.html" class="extype" name="little.json.BuilderCompanion">BuilderCompanion</a>[<span class="extype" name="scala.Int">Int</span>]</span>
-      </span>
-      
-      <p class="shortcomment cmt">Adds Int to requested builder.</p>
-    </li><li name="little.json.Implicits.IntContextWriter" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
-      <a id="IntContextWriter"></a><a id="IntContextWriter:IntContextWriter"></a>
-      <span class="permalink">
-      <a href="../../little/json/Implicits$.html#IntContextWriter" title="Permalink">
-        <i class="material-icons"></i>
-      </a>
-    </span>
-      <span class="modifier_kind">
-        <span class="modifier">implicit </span>
-        <span class="kind">object</span>
-      </span>
-      <span class="symbol">
-        <a title="Writes Int in requested context." href="Implicits$$IntContextWriter$.html"><span class="name">IntContextWriter</span></a><span class="result"> extends <a href="ContextWriter.html" class="extype" name="little.json.ContextWriter">ContextWriter</a>[<span class="extype" name="scala.Int">Int</span>]</span>
-      </span>
-      
-      <p class="shortcomment cmt">Writes Int in requested context.</p>
-    </li><li name="little.json.Implicits.LongBuilderCompanion" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
-      <a id="LongBuilderCompanion"></a><a id="LongBuilderCompanion:LongBuilderCompanion"></a>
-      <span class="permalink">
-      <a href="../../little/json/Implicits$.html#LongBuilderCompanion" title="Permalink">
-        <i class="material-icons"></i>
-      </a>
-    </span>
-      <span class="modifier_kind">
-        <span class="modifier">implicit </span>
-        <span class="kind">object</span>
-      </span>
-      <span class="symbol">
-        <a title="Adds Long to requested builder." href="Implicits$$LongBuilderCompanion$.html"><span class="name">LongBuilderCompanion</span></a><span class="result"> extends <a href="BuilderCompanion.html" class="extype" name="little.json.BuilderCompanion">BuilderCompanion</a>[<span class="extype" name="scala.Long">Long</span>]</span>
-      </span>
-      
-      <p class="shortcomment cmt">Adds Long to requested builder.</p>
-    </li><li name="little.json.Implicits.LongContextWriter" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
-      <a id="LongContextWriter"></a><a id="LongContextWriter:LongContextWriter"></a>
-      <span class="permalink">
-      <a href="../../little/json/Implicits$.html#LongContextWriter" title="Permalink">
-        <i class="material-icons"></i>
-      </a>
-    </span>
-      <span class="modifier_kind">
-        <span class="modifier">implicit </span>
-        <span class="kind">object</span>
-      </span>
-      <span class="symbol">
-        <a title="Writes Long in requested context." href="Implicits$$LongContextWriter$.html"><span class="name">LongContextWriter</span></a><span class="result"> extends <a href="ContextWriter.html" class="extype" name="little.json.ContextWriter">ContextWriter</a>[<span class="extype" name="scala.Long">Long</span>]</span>
-      </span>
-      
-      <p class="shortcomment cmt">Writes Long in requested context.</p>
-    </li><li name="little.json.Implicits.StringBuilderCompanion" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
-      <a id="StringBuilderCompanion"></a><a id="StringBuilderCompanion:StringBuilderCompanion"></a>
-      <span class="permalink">
-      <a href="../../little/json/Implicits$.html#StringBuilderCompanion" title="Permalink">
-        <i class="material-icons"></i>
-      </a>
-    </span>
-      <span class="modifier_kind">
-        <span class="modifier">implicit </span>
-        <span class="kind">object</span>
-      </span>
-      <span class="symbol">
-        <a title="Adds String to requested builder." href="Implicits$$StringBuilderCompanion$.html"><span class="name">StringBuilderCompanion</span></a><span class="result"> extends <a href="BuilderCompanion.html" class="extype" name="little.json.BuilderCompanion">BuilderCompanion</a>[<span class="extype" name="scala.Predef.String">String</span>]</span>
-      </span>
-      
-      <p class="shortcomment cmt">Adds String to requested builder.</p>
-    </li><li name="little.json.Implicits.StringContextWriter" visbl="pub" class="indented0 " data-isabs="false" fullComment="no" group="Ungrouped">
-      <a id="StringContextWriter"></a><a id="StringContextWriter:StringContextWriter"></a>
-      <span class="permalink">
-      <a href="../../little/json/Implicits$.html#StringContextWriter" title="Permalink">
-        <i class="material-icons"></i>
-      </a>
-    </span>
-      <span class="modifier_kind">
-        <span class="modifier">implicit </span>
-        <span class="kind">object</span>
-      </span>
-      <span class="symbol">
-        <a title="Writes String in requested context." href="Implicits$$StringContextWriter$.html"><span class="name">StringContextWriter</span></a><span class="result"> extends <a href="ContextWriter.html" class="extype" name="little.json.ContextWriter">ContextWriter</a>[<span class="extype" name="scala.Predef.String">String</span>]</span>
-      </span>
-      
-      <p class="shortcomment cmt">Writes String in requested context.</p>
     </li>
               </ol>
             </div>
