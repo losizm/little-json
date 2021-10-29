@@ -1,8 +1,10 @@
 # little-json
 
+[![Maven Central](https://img.shields.io/maven-central/v/com.github.losizm/little-json_3.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:%22com.github.losizm%22%20AND%20a:%22little-json_3%22)
+
 The JSON library for Scala.
 
-[![Maven Central](https://img.shields.io/maven-central/v/com.github.losizm/little-json_3.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:%22com.github.losizm%22%20AND%20a:%22little-json_3%22)
+_This project is archived and read-only. See [Grapple](https://github.com/losizm/grapple) for active fork._
 
 ## Getting Started
 **little-json** is a Scala library for reading and writing JSON content. It
